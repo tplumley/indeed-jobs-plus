@@ -1,0 +1,58 @@
+#job-listing {
+    list-style-type: none;
+    margin: 0 -60px;
+}
+#job-listing .job-item:nth-child(3n+4) {
+    clear: both;
+}
+#job-listing .job-item {
+    background: #f1f1f1;
+    margin: 20px;
+    padding:0;
+    float:left;
+    width: calc(33.333333% - 53px);
+}
+#job-listing .job-item a {
+    text-decoration: none;
+}
+#job-listing li div {
+    padding: 20px;
+}
+#job-listing li p.title {
+    background: #005581;
+    margin: -20px -20px 10px -20px;
+    padding: 15px 20px;
+}
+#job-listing li p.title {
+    color:#fff!important;
+}
+#job-listing li p.location {
+    font-weight: 400;
+    background: #ffffff;
+    margin: -12px -20px 10px -20px;
+    padding: 5px 17px;
+    color: #005581!important;
+    border-left: 3px solid #f1f1f1;
+    border-right: 3px solid #f1f1f1;
+    text-transform: uppercase;
+}
+#job-listing li p {
+    color: #000!important;
+}
+
+@media only screen and (max-width: 1056px) {
+    #job-listing .job-item:nth-child(2n+3) {
+        clear: both;
+    }
+    #job-listing .job-item:nth-child(3n+4) {
+        clear: none;
+    }
+    #job-listing .job-item {
+        width: calc(50% - 60px);
+    }
+}
+@media only screen and (max-width: 780px) {
+    #job-listing .job-item {
+        width: calc(100% - 80px);
+    }
+}

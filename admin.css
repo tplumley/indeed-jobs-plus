@@ -1,0 +1,142 @@
+.indeed-jobs-getstarted-steps {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
+}
+
+.indeed-jobs-getstarted-step {
+    position: relative;
+    width: 218px;
+    background-color: #eeeeee;
+    border: solid 1px #dddddd;
+    padding: 10px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: space-between;
+}
+
+.indeed-jobs-getstarted-step.active {
+    background-color: #ffffff;
+    border: solid 1px #0080b0;
+}
+
+.indeed-jobs-getstarted-step h3 {
+    margin: 0 0 8px 0;
+    width: 220px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.indeed-jobs-getstarted-step.active h3 {
+    color: #0080b0;
+}
+
+.indeed-jobs-getstarted-step p {
+    font-size: 13px;
+    color: #666666;
+    margin: 0;
+}
+
+.indeed-jobs-getstarted-step input {
+    font-size: 12px;
+}
+
+.indeed-jobs-getstarted-step .indeed-jobs-getstarted-action {
+    display: flex;
+}
+
+.indeed-jobs-getstarted-step .code-wrapper {
+    margin-right: 10px;
+}
+
+[dir="rtl"] .indeed-jobs-getstarted-step .code-wrapper {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.indeed-jobs-getstarted-step .code-wrapper input.code {
+    width:100%;
+}
+
+.indeed-jobs-getstarted-step .indeed-jobs-getstarted-action input[readonly] {
+    background: #fff;
+}
+#TB_window .indeed-jobs-modal-body {
+    padding: 20px 15px;
+}
+
+[dir="rtl"] #TB_window .indeed-jobs-modal-body {
+    text-align: right;
+}
+
+#TB_window .indeed-jobs-modal-body h3, #TB_window .indeed-jobs-modal-body p {
+    padding: 0 0 9px 0;
+    margin: 0;
+}
+
+#TB_window .indeed-jobs-modal-body a {
+    text-decoration: none;
+    font-weight: bold;
+}
+#TB_window .indeed-jobs-modal-body .indeed-jobs-modal-action {
+    bottom: 20px;
+    position: absolute;
+}
+
+#TB_window .indeed-jobs-modal-body .indeed-jobs-modal-steps:after {
+    content: "";
+    clear: both;
+}
+
+#TB_window .indeed-jobs-modal-body .indeed-jobs-modal-steps > div {
+    float: left;
+    margin-right: 10px;
+    width: 180px;
+}
+
+#TB_window .indeed-jobs-modal-body .indeed-jobs-modal-steps > div:last-child {
+    margin-right: 0;
+}
+
+[dir="rtl"] #TB_window .indeed-jobs-modal-body .indeed-jobs-modal-steps > div {
+    float: right;
+    margin-left: 10px;
+    margin-right:0;
+}
+
+[dir="rtl"] #TB_window .indeed-jobs-modal-body .indeed-jobs-modal-steps > div:last-child {
+    margin-left: 0;
+}
+
+#TB_window .indeed-jobs-modal-body .indeed-jobs-modal-steps img {
+    width: 180px;
+    height: 120px;
+}
+
+#TB_window .indeed-jobs-modal-body .indeed-jobs-modal-steps span {
+    color: #898989;
+    font-size: 10px;
+    line-height: normal;
+}
+
+.indeed-jobs-footer {
+    margin-top: 100px;
+}
+
+.indeed-jobs-footer form{
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    color: #5f5f5f;
+}
+
+.indeed-jobs-footer form a {
+    color: #5f5f5f;
+    text-decoration: none;
+}
